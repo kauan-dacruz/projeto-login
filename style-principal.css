@@ -1,1 +1,103 @@
 @charset "UTF-8";
+
+:root{
+    --cor0: #4f46e5;
+    --cor1: #6366f1;
+
+    --cor2: #0f172a;
+    --cor3: #475569;
+
+    --cor4: #f8fafc;
+    --cor5: #ffffff;
+    --cor6: #e2e8f0;
+
+}
+
+/*Cabeçalho da página principal do projeto.*/
+
+nav{
+    display: flex;justify-content: space-between;
+    background-color: var(--cor6);
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.esquerda{
+    padding-left:60px;
+
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.centro > .link1:hover{
+    background-color: #4f46e5;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.centro > .link2:hover{
+    background-color: #4f46e5;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.centro > .link3:hover{
+    background-color: #4f46e5;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.centro > .link4:hover{
+    background-color: #4f46e5;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.direita{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 60px;
+}
+
+.e > a{
+    border: 1px solid blue;
+    color: black;
+    background-color: #d1d1e5;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.e :hover{
+    background-color: #4f46e5;
+    transition: 0.3s;
+    
+}
+
+.c > a{
+    border: 1px solid blue;
+    color: black;
+    background-color: #d1d1e5;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.c :hover{
+    background-color: #4f46e5;
+    transition: 0.3s;
+}
+/*#######################################################*/
+
