@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            padding: 50px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        #container{
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        #title{
+            text-align: center;
+            color: rgb(14, 14, 187);
+        }
+
+        #risco{
+            border: none;
+            height: 4px;
+            background-color: rgb(14, 14, 187);
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        #imagem{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            
+            border-radius: 50%;
+        }
+
+        img{
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .cor{
+            color: rgb(14, 14, 187) ;
+        }
+
+        #nome{
+            display: flex;
+            font-size: 20px;
+            gap: 70px;
+        }
+
+        #nascimento{
+            display: flex;
+            font-size: 20px;
+            gap: 70px;
+        }
+
+        #curso{
+            display: flex;
+            font-size: 20px;
+            gap: 60px;
+        }
+
+        #faculdade{
+            display: flex;
+            font-size: 20px;
+            gap: 20px;
+        }
+
+        #final{
+            text-align: center;
+            font-size: 23px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">STUDENT ID CARD</h1>
+        <hr id="risco">
+        <div id="imagem"><img src="IMG-20260914-WA0004.jpg" alt="Minha imagem"></div>
+        <hr>
+
+        <div id="nome">
+            <p class="cor">Name:</p>
+            <p>Kauan Da Cruz Lima</p>
+        </div>
+        <hr>
+
+        <div id="nascimento">
+            <p class="cor">idade:</p>
+            <p>23</p>
+        </div>
+        <hr>
+
+        <div id="curso">
+            <p class="cor">Curso:</p>
+            <p>ADS, Análise e Desenvolvimento de sistemas</p>
+        </div>
+        <hr>
+
+        <div id="faculdade">
+            <p class="cor">Faculdade:</p>
+            <p>Unopar Anhanguera</p>
+        </div>
+        <hr>
+        
+        <p class="cor" id="final">Valid Student ID</p>
+    </div>
+</body>
+</html>
